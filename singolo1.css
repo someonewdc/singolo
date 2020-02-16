@@ -26,6 +26,13 @@ a {
 	color: inherit;
 }
 
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
 .container {
 	height: 100%;
 	width: 1020px;
@@ -129,4 +136,37 @@ header::after {
 	height: 6px;
 
 	background-color: #ea676b;
+}
+
+.intro__content {
+	position: relative;
+}
+
+.intro__phones {
+	position: relative;
+}
+
+.intro__vertical-phone {
+	position: absolute;
+	top: 53px;
+	left: 112px;
+}
+
+.intro__horizontal-phone {
+	position: absolute;
+	top: 174px;
+	right: 111px;
+}
+
+.arrow {
+	position: absolute;
+	top: 281px;
+}
+
+.arrow--left-arrow {
+	left: 42px;
+}
+
+.arrow--right-arrow {
+	right: 40px;
 }
